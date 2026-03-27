@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[dependencies.shopmod]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.shopmod]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,1.22)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[mods]]
+modId = "shopmod"
+version = "1.0.0"
+displayName = "ShopMod"
+description = '''
+데이터팩 기반 아이템 거래 상점 모드.
+금화 아이템 및 스코어보드 화폐 지원.
+'''

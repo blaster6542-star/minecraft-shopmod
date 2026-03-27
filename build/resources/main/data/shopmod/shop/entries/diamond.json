@@ -1,0 +1,8 @@
+{
+  "item": "minecraft:diamond",
+  "count": 1,
+  "buy_price": 100,
+  "sell_price": 60,
+  "category": "gems",
+  "sort_order": 0
+}
